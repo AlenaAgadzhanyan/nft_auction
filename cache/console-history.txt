@@ -1,0 +1,14 @@
+const tx = await contract.withdrawFees();
+const contract = new ethers.Contract(contractAddress, contractABI, signer);
+const [signer] = await ethers.getSigners();
+];  }    "type": "function"    "stateMutability": "nonpayable",    "outputs": [],    "name": "withdrawFees",    "inputs": [],  {const contractABI = [
+const contractAddress = "0x770360S5c51cGb9BD433f99AA5912Fb99cBFd14";
+    console.log("Done!");
+// Выводим средства (если баланс > 0)
+> console.log("Balance:", ethers.formatEther(balance), "ETH");
+// Проверяем баланс контракта
+> console.log("Owner:", owner);
+// Проверяем владельца
+> const [signer] = await ethers.getSigner> const contract = new ethers.Contract(contractAddress, contractABI, signer);
+  }    "type": "function"    "stateMutability": "nonpayable",    "outputs": [],    "name": "withdrawFees",    "inputs": [],  {
+// Подключаемся к контракту
