@@ -1,0 +1,25 @@
+{
+  "name": "auction-server",
+  "version": "1.0.0",
+  "description": "Server-side listener and WebSocket server for the NFT Auction platform.",
+  "main": "dist/listener.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/listener.js",
+    "dev": "npm run build && node dist/listener.js"
+  },
+  "dependencies": {
+    "@types/node-cron": "^3.0.11",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1",
+    "node-cron": "^4.2.1",
+    "pg": "^8.12.0",
+    "ws": "^8.17.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.6",
+    "@types/ws": "^8.5.10",
+    "concurrently": "^9.2.1",
+    "typescript": "^5.5.2"
+  }
+}

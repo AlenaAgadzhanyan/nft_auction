@@ -1,0 +1,19 @@
+{
+  "name": "nft-auction-platform",
+  "version": "1.0.0",
+  "description": "A full-stack NFT auction platform with a React client and a Node.js server.",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server",
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
+    "build": "npm run build --prefix client && npm run build --prefix server"
+  },
+  "author": "",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
